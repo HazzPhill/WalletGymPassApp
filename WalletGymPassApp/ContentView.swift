@@ -55,7 +55,7 @@ struct ContentView: View {
                         .padding()
                         .background(Color(.systemGray6))
                         .cornerRadius(10)
-                        .foregroundColor(textColor)
+                        .foregroundColor(.black)
                         .font(.system(size: 18, weight: .medium))
                     
                     // Modern Text Field for ID Number (with number pad)
@@ -64,7 +64,7 @@ struct ContentView: View {
                         .padding()
                         .background(Color(.systemGray6))
                         .cornerRadius(10)
-                        .foregroundColor(textColor)
+                        .foregroundColor(.black)
                         .font(.system(size: 18, weight: .medium))
                     
                     // Pass Image Upload Section
